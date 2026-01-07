@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Gusto Restaurant</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Gusto</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html#booking" class="btn-book">Book Table</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>About Gusto Restaurant</h1>
+            <p>Our story, passion, and commitment to excellence</p>
+        </div>
+    </section>
+
+    <section class="about-content">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>Our Story</h2>
+                    <p>Founded in 2010, Gusto Restaurant began as a small family-owned bistro with a simple mission: to serve delicious, authentic food made from the finest local ingredients.</p>
+                    <p>Over the years, we've grown into a beloved culinary destination, known for our innovative dishes and warm, welcoming atmosphere.</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/restaurant.jpg" alt="Restaurant Interior">
+                </div>
+            </div>
+
+            <div class="team-section">
+                <h2>Meet Our Team</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="images/team.jpg" alt="Head Chef">
+                        <h3>Chef Maria Rodriguez</h3>
+                        <p>Head Chef</p>
+                    </div>
+                    <div class="team-member">
+                        <i class="fas fa-user-circle fa-4x"></i>
+                        <h3>James Wilson</h3>
+                        <p>Restaurant Manager</p>
+                    </div>
+                    <div class="team-member">
+                        <i class="fas fa-user-circle fa-4x"></i>
+                        <h3>Sarah Chen</h3>
+                        <p>Sommelier</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Gusto Restaurant</h3>
+                    <p>123 Food Street, Culinary City</p>
+                    <p>Open: Mon-Sun 11AM-11PM</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-phone"></i> 9309804210</p>
+                    <p><i class="fas fa-envelope"></i> info@gustorestaurant.com</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Gusto Restaurant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
